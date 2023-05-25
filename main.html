@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" href="./JS/nav.js">
+    
+</head>
+<body>
+    <nav>
+        <div class="topnav" class="div">
+            <a href="#home" class="active">Logo</a>
+            <div id="myLinks">
+              <a href="game.html">game</a>
+              <a href="main.html">home page</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    <header>
+        <a href="github.html">project här</a>
+        <h1>Funkar</h1>
+        <a href="game.html">hej spela här</picture></a>
+    </header>
+    <main>
+        <!-- <h2>Funkar</h2> -->
+        <!-- <span class="innerDot"></span> -->
+        <div class="dot">
+            <h1>Adrian Mellberg</h1>
+            <p></p>
+        </div>
+        <div class ="dot">
+            <h1>Vem är jag?</h1>
+            <p>18 år, går NTI i 3:an och skall gå te4</p>
+        </div>
+        <div class ="dot">
+            <h1>Project och spel</h1>
+            <p></p>
+        </div>
+    </main>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+</body>
+</html>
